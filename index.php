@@ -48,12 +48,12 @@ echo("<br>");
 $numerozapatos =5;
 $valor =150000;
 $totalcompra = $numerozapatos*$valor;
-$descuento;
+$descuento=0;
 $totalpagar;
 
 if ($numerozapatos ==3) {
     $descuento = $totalcompra*0.10;
-} elseif ($cantidad > 3 && $cantidad <=5) {
+} elseif ($numerozapatos > 3 && $numerozapatos <=5) {
     $descuento = $totalcompra * 0.20;
 } elseif ($numerozapatos > 5) {
     $descuento = $totalcompra * 0.40;
