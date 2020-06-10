@@ -53,7 +53,7 @@ $totalpagar;
 
 if ($numerozapatos ==3) {
     $descuento = $totalcompra*0.10;
-} elseif ($numerozapatos > 3 || $numerozapatos <=5) {
+} elseif ($numerozapatos > 3 && $cantidad <=5) {
     $descuento = $totalcompra * 0.20;
 } elseif ($numerozapatos > 5) {
     $descuento = $totalcompra * 0.40;
